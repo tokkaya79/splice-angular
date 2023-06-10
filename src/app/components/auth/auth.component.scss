@@ -1,0 +1,17 @@
+.auth-buttons {
+  & .auth-buttons__btn {
+    border: none;
+    background-color: unset;
+    color: #fff;
+    letter-spacing: 1px;
+    padding: 10px 30px;
+    border-radius: 105px;
+    &:hover {
+      backdrop-filter: blur(2.5px);
+      background-color: #ffffff42;
+    }
+  }
+  & .auth-buttons__btn:not(:first-child) {
+    margin-left: 1px;
+  }
+}
