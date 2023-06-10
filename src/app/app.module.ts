@@ -13,7 +13,9 @@ import { AuthComponent } from './components/auth/auth.component';
 import { ButtonComponent } from './components/button/button.component';
 import { LogosSectionComponent } from './components/logos-section/logos-section.component';
 import { FindSoundSectionComponent } from './components/find-sound-section/find-sound-section.component';
-import { TitleComponent } from './components/title/title.component';
+import { TitleComponent } from './shared/title/title.component';
+
+
 
 @NgModule({
   declarations: [
@@ -26,12 +28,14 @@ import { TitleComponent } from './components/title/title.component';
     LogosSectionComponent,
     FindSoundSectionComponent,
     TitleComponent
+
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatTabsModule
+    MatTabsModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent]
