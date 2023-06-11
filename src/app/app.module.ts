@@ -20,8 +20,6 @@ import { CreatorsSectionComponent } from './sections/creators-section/creators-s
 import { TestimonialComponent } from './components/testimonial/testimonial.component';
 import { TestimonialsBlockComponent } from './components/testimonials-block/testimonials-block.component';
 
-
-
 @NgModule({
   declarations: [
     AppComponent,
@@ -36,17 +34,15 @@ import { TestimonialsBlockComponent } from './components/testimonials-block/test
     StayInSectionComponent,
     CreatorsSectionComponent,
     TestimonialComponent,
-    TestimonialsBlockComponent
-
+    TestimonialsBlockComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     MatTabsModule,
-
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

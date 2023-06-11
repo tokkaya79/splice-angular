@@ -1,5 +1,26 @@
 <div class="auth-buttons">
-  <button mat-button class="auth-buttons__btn" *ngIf="!isLoggedIn" (click)="login()">Login</button>
-  <button mat-button class="auth-buttons__btn" *ngIf="!isLoggedIn" (click)="signUp()">Sign up</button>
-  <button mat-button class="auth-buttons__btn"*ngIf="isLoggedIn" (click)="logout()">Logout</button>
+  <button
+    mat-button
+    class="auth-buttons__btn"
+    *ngIf="!isLoggedIn"
+    (click)="login()"
+  >
+    Login
+  </button>
+  <button
+    mat-button
+    class="auth-buttons__btn"
+    *ngIf="!isLoggedIn"
+    (click)="signUp()"
+  >
+    Sign up
+  </button>
+  <button
+    mat-button
+    class="auth-buttons__btn"
+    *ngIf="isLoggedIn"
+    (click)="logout()"
+  >
+    Logout
+  </button>
 </div>

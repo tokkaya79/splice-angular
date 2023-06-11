@@ -1,10 +1,11 @@
 <div class="testimonials-block">
-  <app-testimonial class="testimonial-item"
+  <app-testimonial
+    class="testimonial-item"
     *ngFor="let testimonial of testimonials; let i = index"
     [textAbout]="testimonial.textAbout"
     [photoUrl]="testimonial.photoUrl"
     [nameAuth]="testimonial.nameAuth"
     [positionAuth]="testimonial.positionAuth"
-    [ngClass]="{'testimonial-margin': i === 2}"
+    [ngClass]="{ 'testimonial-margin': i === 2 }"
   ></app-testimonial>
 </div>

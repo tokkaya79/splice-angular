@@ -1,18 +1,15 @@
-.build-your{
+.build-your {
   margin-bottom: 70px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 30px;
   padding: 0 168px;
-  &__content{
+  &__content {
     max-width: 400px;
     display: flex;
     flex-direction: column;
     align-items: left;
     justify-content: center;
-
-
   }
 }
-

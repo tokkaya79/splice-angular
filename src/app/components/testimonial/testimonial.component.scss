@@ -1,4 +1,4 @@
-.testimonial{
+.testimonial {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -9,22 +9,21 @@
   max-width: 290px;
   height: auto;
   border-radius: 3px;
-  &__about{
+  &__about {
     font-size: 18px;
     margin: 0 0 20px 0;
   }
-  &__auth{
+  &__auth {
     display: flex;
     justify-content: left;
     align-items: center;
     column-gap: 10px;
   }
-  &__date--name{
+  &__date--name {
     font-size: 11px;
     margin: 0;
-
   }
-  &__date--position{
+  &__date--position {
     font-size: 8px;
   }
 }
