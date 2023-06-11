@@ -13,10 +13,10 @@ interface Logo {
 })
 export class LogosSectionComponent {
   logos: Logo[] = [
-    { src: 'assets/images/logos/billboard.png', alt: 'billboard' },
-    { src: 'assets/images/logos/complex.png', alt: 'complex' },
-    { src: 'assets/images/logos/variety.png', alt: 'variety' },
-    { src: 'assets/images/logos/verge.png', alt: 'verge' },
-    { src: 'assets/images/logos/wired.png', alt: 'wired' },
+    { src: 'assets/images/logos/logo-img1.png', alt: 'billboard' },
+    { src: 'assets/images/logos/logo-img2.png', alt: 'complex' },
+    { src: 'assets/images/logos/logo-img3.png', alt: 'variety' },
+    { src: 'assets/images/logos/logo-img4.png', alt: 'verge' },
+    { src: 'assets/images/logos/logo-img5.png', alt: 'wired' },
   ];
 }
