@@ -14,6 +14,7 @@ import { ButtonComponent } from './components/button/button.component';
 import { LogosSectionComponent } from './sections/logos-section/logos-section.component';
 import { FindSoundSectionComponent } from './sections/find-sound-section/find-sound-section.component';
 import { TitleComponent } from './shared/title/title.component';
+import { BuildYourSectionComponent } from './sections/build-your-section/build-your-section.component';
 
 
 
@@ -27,7 +28,8 @@ import { TitleComponent } from './shared/title/title.component';
     ButtonComponent,
     LogosSectionComponent,
     FindSoundSectionComponent,
-    TitleComponent
+    TitleComponent,
+    BuildYourSectionComponent
 
   ],
   imports: [
