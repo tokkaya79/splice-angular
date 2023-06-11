@@ -1,17 +1,35 @@
 .creators {
+  position: relative;
   background-image: url("../../../assets/images/img-creators.png");
   background-position: center right;
   background-repeat: no-repeat;
   background-size: 70%;
-  position: relative;
   display: flex;
   justify-content: space-between;
   height: 1260px;
+
+  &::before {
+    content: "";
+    position: absolute;
+    background-image: url("../../../assets/images/bg-black.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 145%;
+    background-position: center center;
+    background-size: cover;
+    z-index: -2;
+    top: 200px;
+  }
+
   &__content {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: left;
     max-width: 400px;
+    margin-left: 82px;
+    &-title {
+      color: #ffff;
+    }
   }
 }

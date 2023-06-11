@@ -1,5 +1,20 @@
 .find-sound {
+  position: relative;
   margin-bottom: 164px;
+  &::before {
+    content: "";
+    position: absolute;
+    background-image: url("../../../assets/images/grey-line.png");
+    background-repeat: no-repeat;
+    width: 119%;
+    height: 32%;
+    z-index: -1;
+    bottom: 91px;
+    left: -61px;
+    right: 0;
+    background-position: center;
+    background-size: cover;
+  }
   &__wrapper {
     max-width: 760px;
     margin: 0 auto;
