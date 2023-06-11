@@ -1,0 +1,12 @@
+.creators{
+  display: flex;
+  justify-content: space-between;
+  &__content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    max-width: 400px;
+  }
+
+}
