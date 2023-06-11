@@ -1,0 +1,11 @@
+<section class="as-good">
+  <h2 class="as-good__title title">As good as it sounds</h2>
+  <div class="as-good__items">
+    <app-as-good-item class="as-good__item"
+    *ngFor="let item of items"
+    [iconUrl]="item.iconUrl"
+    [title]="item.title"
+    [text]="item.text"
+    ></app-as-good-item>
+  </div>
+</section>

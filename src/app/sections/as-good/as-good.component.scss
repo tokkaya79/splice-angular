@@ -1,0 +1,16 @@
+.as-good {
+  &__title{
+    margin: 70px auto;
+    text-align: center;
+  }
+  &__items {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-bottom: 70px;
+  }
+  &__item {
+    max-width: 290px;
+  }
+}

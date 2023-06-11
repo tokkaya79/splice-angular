@@ -19,6 +19,9 @@ import { StayInSectionComponent } from './sections/stay-in-section/stay-i-sectio
 import { CreatorsSectionComponent } from './sections/creators-section/creators-section.component';
 import { TestimonialComponent } from './components/testimonial/testimonial.component';
 import { TestimonialsBlockComponent } from './components/testimonials-block/testimonials-block.component';
+import { AsGoodComponent } from './sections/as-good/as-good.component';
+import { AsGoodItemComponent } from './components/as-good-item/as-good-item.component';
+import { ComeChangeComponent } from './sections/come-change/come-change.component';
 
 @NgModule({
   declarations: [
@@ -35,6 +38,9 @@ import { TestimonialsBlockComponent } from './components/testimonials-block/test
     CreatorsSectionComponent,
     TestimonialComponent,
     TestimonialsBlockComponent,
+    AsGoodComponent,
+    AsGoodItemComponent,
+    ComeChangeComponent,
   ],
   imports: [
     BrowserModule,
