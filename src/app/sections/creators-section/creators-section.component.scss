@@ -1,6 +1,13 @@
 .creators{
+  background-image: url('../../../assets/images/img-creators.png');
+  background-position: center right;
+  background-repeat: no-repeat;
+  background-size: 70%;
+  position: relative;
   display: flex;
   justify-content: space-between;
+  height: 1074px;
+  margin-bottom: 160px;
   &__content{
     display: flex;
     flex-direction: column;

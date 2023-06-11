@@ -17,6 +17,8 @@ import { BuildYourSectionComponent } from './sections/build-your-section/build-y
 import { LogoComponent } from './components/logo/logo.component';
 import { StayInSectionComponent } from './sections/stay-in-section/stay-i-section.component';
 import { CreatorsSectionComponent } from './sections/creators-section/creators-section.component';
+import { TestimonialComponent } from './components/testimonial/testimonial.component';
+import { TestimonialsBlockComponent } from './components/testimonials-block/testimonials-block.component';
 
 
 
@@ -32,7 +34,9 @@ import { CreatorsSectionComponent } from './sections/creators-section/creators-s
     FindSoundSectionComponent,
     BuildYourSectionComponent,
     StayInSectionComponent,
-    CreatorsSectionComponent
+    CreatorsSectionComponent,
+    TestimonialComponent,
+    TestimonialsBlockComponent
 
   ],
   imports: [
