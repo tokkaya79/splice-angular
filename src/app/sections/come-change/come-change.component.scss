@@ -1,0 +1,25 @@
+.come-change{
+  &__wrapper{
+    margin: 0 auto;
+    max-width: 550px;
+    background: linear-gradient(95.31deg, #A659FF -28.73%, #7178FF 23.23%, #2148FF 62.74%, #FF3517 111.77%);
+    border-radius: 22px;
+    color: #ffff;
+    padding: 43px 365px;
+    text-align: center;
+  }
+  &__title{
+    font-size: 36px;
+    line-height: 1.5;
+    font-weight: 900;
+  }
+  &__btn{
+    background-color: unset;
+    border-color: #ffff;
+    letter-spacing: 2px;
+    padding: 15px 40px;
+    border-radius: 22px;
+    color: #ffff;
+
+  }
+}
