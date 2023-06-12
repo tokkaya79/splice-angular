@@ -22,6 +22,7 @@ import { TestimonialsBlockComponent } from './components/testimonials-block/test
 import { AsGoodComponent } from './sections/as-good/as-good.component';
 import { AsGoodItemComponent } from './components/as-good-item/as-good-item.component';
 import { ComeChangeComponent } from './sections/come-change/come-change.component';
+import { FooterComponent } from './sections/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -41,6 +42,7 @@ import { ComeChangeComponent } from './sections/come-change/come-change.componen
     AsGoodComponent,
     AsGoodItemComponent,
     ComeChangeComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,

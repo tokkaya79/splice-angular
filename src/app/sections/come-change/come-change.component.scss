@@ -1,4 +1,5 @@
 .come-change{
+  margin-bottom: 90px;
   &__wrapper{
     margin: 0 auto;
     max-width: 550px;
@@ -20,6 +21,9 @@
     padding: 15px 40px;
     border-radius: 22px;
     color: #ffff;
+    cursor: pointer;
+    text-decoration: none;
+    border: 1px solid #ffff;
 
   }
 }
