@@ -24,12 +24,17 @@ header {
   }
   & .header-content {
     padding-top: 350px;
-    &__title {
+    &__img-box {
       position: absolute;
       top: 25%;
       left: 70px;
       opacity: 0;
       animation: slide-in-title 2s ease-in-out 0s 1 normal forwards;
+    }
+    &__img-title{
+      display: block;
+      max-width: 100%;
+      height: auto;
     }
     &__subtitle {
       margin-bottom: 34px;

@@ -1,5 +1,23 @@
 .nav-bar {
-  display: flex;
-  flex-wrap: wrap;
-  width: 700px;
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    color: #272727;
+    font-size: 10px;
+    line-height: 1.2;
+    letter-spacing: 1px;
+  }
+  &__item{
+    padding: 10px 30px;
+    border-radius: 105px;
+    transition: background-color 0.3s ease;
+    &:hover {
+      backdrop-filter: blur(2.5px);
+      background-color: #d1c7c75a;
+      cursor: pointer;
+    }
+    &:active{
+      background-color: #d1c7c79f;
+    }
+  }
 }

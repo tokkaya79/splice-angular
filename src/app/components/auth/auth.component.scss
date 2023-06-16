@@ -9,6 +9,7 @@
     &:hover {
       backdrop-filter: blur(2.5px);
       background-color: #ffffff42;
+      cursor: pointer;
     }
   }
   & .auth-buttons__btn:not(:first-child) {

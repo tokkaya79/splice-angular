@@ -4,9 +4,8 @@
   background-position: center right;
   background-repeat: no-repeat;
   background-size: 70%;
-  display: flex;
-  justify-content: space-between;
   height: 1260px;
+  display: flex;
 
   &::before {
     content: "";
@@ -21,15 +20,26 @@
     top: 200px;
   }
 
+  &__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 50px;
+    margin: 0 50px;
+  }
   &__content {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: left;
-    max-width: 400px;
-    margin-left: 82px;
+    max-width: 35%;
+
     &-title {
       color: #ffff;
     }
   }
+  &__testimonials-block{
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+
 }

@@ -9,9 +9,11 @@
   }
   &__container {
     display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
     justify-content: space-between;
-    padding: 30px 194px;
+    flex-wrap: wrap;
+    column-gap: 30px;
+    row-gap: 30px;
+    margin: 30px auto;
+    width: 70%;
   }
 }

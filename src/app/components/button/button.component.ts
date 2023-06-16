@@ -14,9 +14,14 @@ import { Component, Input } from '@angular/core';
         border: unset;
         border-radius: 105px;
         color: #fff;
+        transition: background-color 0.3s ease;
       }
       .btn:hover {
         cursor: pointer;
+      }
+      .btn:active{
+        background-color: #032cd2;
+
       }
     `,
   ],

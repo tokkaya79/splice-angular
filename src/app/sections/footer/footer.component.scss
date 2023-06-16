@@ -1,9 +1,14 @@
 .footer {
   &-wrapper{
+    max-width: 100%;
+    height: auto;
     margin: 0 85px;
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
     column-gap: 20px;
+     & li a:hover{
+      text-decoration: underline;
+    }
   }
   &-logo{
     grid-column: 1;
@@ -46,8 +51,6 @@
       column-gap: 30px;
       row-gap: 10;
     }
-    &__links li a:hover{
-      text-decoration: underline;
-    }
+
   }
 }

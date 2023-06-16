@@ -1,11 +1,10 @@
 .testimonials-block {
-  position: absolute;
-  right: 6%;
-  top: 30%;
   display: flex;
   flex-wrap: wrap;
   gap: 40px;
-  max-width: 792px;
+}
+.testimonial-item:first-child{
+  margin-left: 60px;
 }
 .testimonial-margin {
   margin-left: 60px;
