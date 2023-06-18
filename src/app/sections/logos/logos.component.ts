@@ -6,9 +6,9 @@ interface Logo {
 }
 
 @Component({
-  selector: 'app-logos-section',
-  templateUrl: './logos-section.component.html',
-  styleUrls: ['./logos-section.component.scss'],
+  selector: 'app-logos',
+  templateUrl: './logos.component.html',
+  styleUrls: ['./logos.component.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class LogosSectionComponent {

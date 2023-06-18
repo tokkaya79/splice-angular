@@ -1,18 +1,9 @@
-<!-- <nav mat-tab-nav-bar="nav-bar">
-  <a mat-tab-link routerLink="/studio" routerLinkActive="active">studio</a>
-  <a mat-tab-link routerLink="/community" routerLinkActive="active"
-    >community</a
-  >
-  <a mat-tab-link routerLink="/sounds" routerLinkActive="active">sounds</a>
-  <a mat-tab-link routerLink="/plugins" routerLinkActive="active">plugins</a>
-  <a mat-tab-link routerLink="/blog" routerLinkActive="active">blog</a>
-</nav> -->
 <nav class="nav-bar">
   <ul class="nav-bar__list">
-    <li class="nav-bar__item"><a class="nav-bar__link" routerLink="/studio" routerLinkActive="active">Studio</a></li>
-    <li class="nav-bar__item"><a class="nav-bar__link" routerLink="/community" routerLinkActive="active">Community</a></li>
-    <li class="nav-bar__item"><a class="nav-bar__link" routerLink="/sounds" routerLinkActive="active">Sounds</a></li>
-    <li class="nav-bar__item"><a class="nav-bar__link" routerLink="/plugins" routerLinkActive="active">Plugins</a></li>
-    <li class="nav-bar__item"><a class="nav-bar__link" routerLink="/blog" routerLinkActive="active">Blog</a></li>
+    <li class="nav-bar__item"><a class="nav-bar__link nav-bar__link-studio" routerLink="/studio" routerLinkActive="active" (click)="scrollToSection('stayInSection')">Studio</a></li>
+    <li class="nav-bar__item"><a class="nav-bar__link" routerLink="/community" routerLinkActive="active" (click)="scrollToSection('comeChangeSection')">Community</a></li>
+    <li class="nav-bar__item"><a class="nav-bar__link" routerLink="/sounds" routerLinkActive="active" (click)="scrollToSection('findSoundSection')">Sounds</a></li>
+    <li class="nav-bar__item"><a class="nav-bar__link" routerLink="/plugins" routerLinkActive="active" (click)="scrollToSection('buildYourSection')">Plugins</a></li>
+    <li class="nav-bar__item"><a class="nav-bar__link" routerLink="/blog" routerLinkActive="active" (click)="scrollToSection('creatorsSection')">Blog</a></li>
   </ul>
 </nav>

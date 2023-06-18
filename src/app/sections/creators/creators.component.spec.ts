@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { CreatorsSectionComponent } from './creators-section.component';
+import { CreatorsSectionComponent } from './creators.component';
 
 describe('CreatorsSectionComponent', () => {
   let component: CreatorsSectionComponent;
