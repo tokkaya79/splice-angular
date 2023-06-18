@@ -2,9 +2,11 @@ import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-button',
-  template: `<button mat-button class="btn">{{ buttonText }}</button>`,
+  template: `<button mat-button class="btn" >{{ buttonText }}</button>`,
   styles: [
-    `
+    `.mat-mdc-button:not(:disabled){
+      color: #fff;
+    }
       .btn {
         margin-top: 40px;
         padding: 11px 35px;
@@ -13,7 +15,6 @@ import { Component, Input } from '@angular/core';
         line-height: 1.5;
         border: unset;
         border-radius: 105px;
-        color: #fff;
         transition: background-color 0.3s ease;
       }
       .btn:hover {
@@ -28,4 +29,7 @@ import { Component, Input } from '@angular/core';
 })
 export class ButtonComponent {
   @Input() buttonText: string = '';
+
+
+
 }

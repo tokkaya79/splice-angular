@@ -1,15 +1,16 @@
 import { NgModule } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
 import { MatTabsModule } from '@angular/material/tabs';
+import { MatButtonModule } from '@angular/material/button';
+import { MatDialogModule } from '@angular/material/dialog';
+import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-
+import { FormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
 import { HeaderComponent } from './sections/header/header.component';
 import { NavBarComponent } from './components/navBar/navBar.component';
-
 import { AuthComponent } from './components/auth/auth.component';
 import { ButtonComponent } from './components/button/button.component';
 import { LogosSectionComponent } from './sections/logos-section/logos-section.component';
@@ -24,6 +25,8 @@ import { AsGoodComponent } from './sections/as-good/as-good.component';
 import { AsGoodItemComponent } from './components/as-good-item/as-good-item.component';
 import { ComeChangeComponent } from './sections/come-change/come-change.component';
 import { FooterComponent } from './sections/footer/footer.component';
+import { RegistrationComponent } from './components/registration/registration.component';
+import { LoginComponent } from './components/login/login.component';
 
 @NgModule({
   declarations: [
@@ -44,12 +47,17 @@ import { FooterComponent } from './sections/footer/footer.component';
     AsGoodItemComponent,
     ComeChangeComponent,
     FooterComponent,
+    RegistrationComponent,
+    LoginComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatTabsModule
+    MatTabsModule,
+    MatButtonModule,
+    MatDialogModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent],
