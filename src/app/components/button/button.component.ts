@@ -9,7 +9,7 @@ import { Component, Input } from '@angular/core';
     }
       .btn {
         margin-top: 40px;
-        padding: 11px 35px;
+        padding: 25px 35px;
         background-color: #0033ff;
         letter-spacing: 1px;
         line-height: 1.5;

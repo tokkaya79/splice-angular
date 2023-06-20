@@ -1,0 +1,33 @@
+.btn-yakor {
+  position: fixed;
+  right: 200px;
+  bottom: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70px;
+  height: 70px;
+  background-color: #0033ff8e;
+  box-shadow: 4px 6px 6px #4e4e4e8e;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  animation: fade-in 0.3s ease-in-out forwards;
+}
+
+.btn-yakor:hover {
+  opacity: 0.8;
+}
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

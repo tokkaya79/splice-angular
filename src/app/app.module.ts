@@ -27,6 +27,7 @@ import { ComeChangeComponent } from './sections/come-change/come-change.componen
 import { FooterComponent } from './sections/footer/footer.component';
 import { RegistrationComponent } from './components/registration/registration.component';
 import { LoginComponent } from './components/login/login.component';
+import { BtnYacorComponent } from './components/btn-yacor/btn-yacor.component';
 
 @NgModule({
   declarations: [
@@ -49,6 +50,7 @@ import { LoginComponent } from './components/login/login.component';
     FooterComponent,
     RegistrationComponent,
     LoginComponent,
+    BtnYacorComponent,
   ],
   imports: [
     BrowserModule,
