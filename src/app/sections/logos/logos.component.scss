@@ -17,3 +17,11 @@
     width: 70%;
   }
 }
+//--------screens-------------
+@media (max-width: 460px){
+  .logos {
+    &__container{
+      justify-content: center;
+    }
+  }
+}

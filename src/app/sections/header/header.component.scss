@@ -67,7 +67,7 @@
   }
   &-img {
     position: absolute;
-    height: 900px;
+    height: auto;
     z-index: -1;
     top: 0;
     right: 0;
@@ -152,6 +152,7 @@
 }
 @media (max-width: 650px) {
   .header {
+    margin-bottom: 110px;
     &-content {
       &__img-box {
         top: 270px;
@@ -162,7 +163,7 @@
         max-width: 100%;
       }
       &__btn {
-        top: 550px;
+        top: 585px;
       }
     }
   }
@@ -234,6 +235,7 @@
 }
 @media (max-width: 350px) {
   .header {
+    margin-bottom: 40px;
     &-content {
       &__img-box {
         top: 260px;
