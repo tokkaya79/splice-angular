@@ -2,12 +2,12 @@
   &__list {
     display: flex;
     flex-wrap: wrap;
+  }
+  &__item{
     color: #272727;
     font-size: 12px;
     line-height: 1.2;
     letter-spacing: 1px;
-  }
-  &__item{
     padding: 10px 30px;
     border-radius: 105px;
     transition: background-color 0.3s ease;
@@ -19,5 +19,54 @@
     &:active{
       background-color: #d1c7c79f;
     }
+  }
+}
+
+
+//-------screens-------------------------
+@media (max-width: 1360px){
+  .nav-bar {
+    &__item:last-child{
+      color: #fff;
+    }
+
+  }
+}
+@media (max-width: 1260px){
+  .nav-bar {
+    &__item--foth{
+      color: #fff;
+    }
+
+  }
+}
+@media (max-width: 1160px){
+  .nav-bar {
+    &__item{
+      padding: 7px 15px;
+    }
+
+  }
+}
+@media (max-width: 1040px){
+  .nav-bar {
+    &__item--thid{
+      color: #fff;
+    }
+
+  }
+}
+@media (max-width: 890px){
+  .nav-bar {
+    &__item--second{
+      color: #fff;
+    }
+
+  }
+}
+@media (max-width: 840px) {
+  .nav-bar {
+    display: none;
+
   }
 }

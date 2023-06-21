@@ -1,4 +1,4 @@
-<header id="headerSection">
+<header class="header" id="headerSection">
   <div class="container">
     <div class="header-top">
       <div class="header-top__wrapper">
@@ -7,20 +7,26 @@
       </div>
       <app-auth></app-auth>
     </div>
-    <div class="header-content">
-      <div class="header-content__img-box">
-      <img
-        class="header-content__img-title"
-        src="assets/images/title-header1.png"
-        alt="title-header"
-      />
-      </div>
-      <h3 class="header-content__subtitle">
-        Royalty-free sounds. Industry-leading software. Endless inspiration.
-        Start creating with Splice.
-      </h3>
+    <div class="header__inner">
+      <div class="header-content">
+        <div class="header-content__img-box">
+          <img
+            class="header-content__img-title"
+            src="assets/images/title-header1.png"
+            alt="title-header"
+          />
+        </div>
+        <h3 class="header-content__subtitle">
+          Royalty-free sounds. Industry-leading software. Endless inspiration.
+          Start creating with Splice.
+        </h3>
 
-      <app-button class="header-content__btn" buttonText="SIGN UP" (click)="authComponent.signUp()"></app-button>
+        <app-button
+          class="header-content__btn"
+          buttonText="SIGN UP"
+          (click)="authComponent.signUp()"
+        ></app-button>
+      </div>
     </div>
     <div class="header-img">
       <img

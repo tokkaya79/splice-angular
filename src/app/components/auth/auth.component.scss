@@ -16,3 +16,22 @@
     margin-left: 1px;
   }
 }
+//-----screens-------------------------
+@media (max-width: 1160px){
+  .auth-buttons{
+    & .auth-buttons__btn{
+      padding: 7px 15px;
+    }
+
+  }
+}
+
+@media (max-width: 13500px){
+  .auth-buttons{
+    & .auth-buttons__btn{
+      font-size: 12px;
+      padding: 5px 10px;
+    }
+
+  }
+}
