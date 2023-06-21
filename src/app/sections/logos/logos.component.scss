@@ -18,6 +18,11 @@
   }
 }
 //--------screens-------------
+@media (max-width: 1150px){
+  .logos {
+    margin-bottom: 60px;
+  }
+}
 @media (max-width: 460px){
   .logos {
     &__container{

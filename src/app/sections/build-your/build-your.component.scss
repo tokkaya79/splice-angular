@@ -34,3 +34,12 @@
     justify-content: center;
   }
 }
+//--------screens-------------
+@media (max-width: 1050px){
+  .build-your{
+    &__wrapper{
+      text-align: center;
+    }
+
+  }
+}
