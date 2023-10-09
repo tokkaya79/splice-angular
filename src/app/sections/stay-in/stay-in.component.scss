@@ -22,3 +22,13 @@
     height: auto;
   }
 }
+//--------screens-------------
+
+@media (max-width: 1050px){
+  .stay-in {
+    &__content{
+      text-align: center;
+    }
+
+  }
+}

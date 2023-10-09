@@ -2,6 +2,7 @@
   background-color: #f4f6f9;
   position: relative;
   padding: 0 10px;
+  margin-bottom: 50px;
   &::before {
     content: "";
     position: absolute;
@@ -35,6 +36,15 @@
   }
 }
 //--------screens-------------
+@media (max-width: 1191px){
+  .build-your{
+    &__img-block{
+      order: 2;
+    }
+
+  }
+}
+
 @media (max-width: 1050px){
   .build-your{
     &__wrapper{
